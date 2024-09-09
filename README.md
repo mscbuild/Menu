@@ -19,5 +19,5 @@ To run this project free.
 
 ## Sources
 This app is inspired by Coursera „e-learning”
-  tutorial by (https://www.coursera.org/))
+  tutorial by (https://www.coursera.org)
 ```
