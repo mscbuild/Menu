@@ -10,8 +10,8 @@ This project is Responsive Topnav Example.
 ## Technologies
 Project is created with:
 * HTML
-* Css
-* JS
+* CSS
+* JavaScript
 	
 ## Setup
 To run this project free.
