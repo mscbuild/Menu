@@ -1,9 +1,16 @@
-<!DOCTYPE html>
-<html lang="en" >
-
+<html lang="fr">
 <head>
-  <meta charset="UTF-8"> 
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREAKOUT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.22.14/planck.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.22.14/p5play.min.js"></script>
+</head>
+<body>
+ <style>
 body, html {
     margin: 0;
     padding: 0;
@@ -101,25 +108,7 @@ canvas {
 
   <script>
   window.console = window.console || function(t) {};
-</script>
-
-  
-  
-</head>
-
-<body translate="no">
-  <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BREAKOUT</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.22.14/planck.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.22.14/p5play.min.js"></script>
-</head>
-<body>
+</script> 
     <div id="game-container">
         <div id="splash-screen">
             <button id="breakout-button">BREAKOUT</button>
@@ -155,10 +144,7 @@ canvas {
             <div>LIVES: <span id="lives">3</span></div>
         </div>
     </div>
-</body>
-</html>
-  
-      <script id="rendered-js" >
+   <script id="rendered-js" >
 let ball, paddle, bricks, walls;
 let gameStarted = false;
 let ballLaunched = false;
@@ -466,6 +452,5 @@ document.getElementById('restart-button').addEventListener('click', () => {
 </body>
 
 </html>
-
- 
- 
+</body>
+</html> 
